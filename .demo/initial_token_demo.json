@@ -1,0 +1,279 @@
+{
+  "$schema": "https://demotime.elio.dev/demo-time.schema.json",
+  "title": "INITIAL TOKEN CREATION",
+  "description": "",
+  "demos": [
+    {
+      "title": "CBSECURITY CONFIG",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "config/coldbox.cfc",
+          "position": "141:195"
+        },
+        {
+          "action": "positionCursor",
+          "path": "config/coldbox.cfc",
+          "position": "141"
+        }
+      ]
+    },
+    {
+      "title": "USER SERVICE",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/models/user/userService.cfc",
+          "position": "9:47"
+        },
+        {
+          "action": "positionCursor",
+         "path": "modules_app/api/models/user/userService.cfc",
+          "position": "9"
+        }
+      ]
+    },
+    {
+      "title": "CBSECURITY CONFIG - 2",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "config/coldbox.cfc",
+          "position": "141:195"
+        },
+        {
+          "action": "positionCursor",
+          "path": "config/coldbox.cfc",
+          "position": "141"
+        }
+      ]
+    },
+    {
+      "title": "INIT API CONFIG",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/moduleconfig.cfc",
+          "position": "96:134"
+        },
+        {
+          "action": "positionCursor",
+          "path": "modules_app/api/moduleconfig.cfc",
+          "position": "96"
+        }
+      ]
+    },
+    {
+      "title": "LAYOUT REDIRECT",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "layouts/main.cfm",
+          "position": "139:172"
+        },
+        {
+          "action": "positionCursor",
+          "path": "layouts/main.cfm",
+          "position": "139"
+        }
+      ]
+    },
+    {
+      "title": "POST LOGIN",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/auth/login.cfm",
+          "position": "27:62"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/auth/login.cfm",
+          "position": "27"
+        }
+      ]
+    },
+    {
+      "title": "AUTH USER",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/handlers/auth/login.cfc",
+          "position": "23:91"
+        },
+        {
+          "action": "positionCursor",
+          "path": "modules_app/api/handlers/auth/login.cfc",
+          "position": "23"
+        }
+      ]
+    },    
+    {
+      "title": "RECEIVE RESPONSE",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/auth/login.cfm",
+          "position": "45:55"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/auth/login.cfm",
+          "position": "45"
+        }
+      ]
+    },
+    {
+      "title": "SET TOKEN",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "layouts/main.cfm",
+          "position": "174:179"
+        },
+        {
+          "action": "positionCursor",
+          "path": "layouts/main.cfm",
+          "position": "174"
+        }
+      ]
+    },
+    {
+      "title": "RELOAD PAGE",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/auth/login.cfm",
+          "position": "45:55"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/auth/login.cfm",
+          "position": "45"
+        }
+      ]
+    },
+    {
+      "title": "LAYOUT REDIRECT",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "layouts/main.cfm",
+          "position": "146:172"
+        },
+        {
+          "action": "positionCursor",
+          "path": "layouts/main.cfm",
+          "position": "146"
+        }
+      ]
+    },    
+    {
+      "title": "DASHBOARD",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/main/index.cfm",
+          "position": "274:276"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/main/index.cfm",
+          "position": "275"
+        }
+      ]
+    },    
+    {
+      "title": "FETCH PROFILE",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/main/index.cfm",
+          "position": "157:167"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/main/index.cfm",
+          "position": "157"
+        }
+      ]
+    },
+    {
+      "title": "CALL AUTH USER",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/handlers/user/profile.cfc",
+          "position": "23:36"
+        },
+        {
+          "action": "positionCursor",
+          "path": "modules_app/api/handlers/user/profile.cfc",
+          "position": "23"
+        }
+      ]
+    },
+    {
+      "title": "AUTH USER TOKEN",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/models/auth/authService.cfc",
+          "position": "204:223"
+        },
+        {
+          "action": "positionCursor",
+          "path": "modules_app/api/models/auth/authService.cfc",
+          "position": "204"
+        }
+      ]
+    },
+    {
+      "title": "DECODE USER TOKEN",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/models/auth/authService.cfc",
+          "position": "184:202"
+        },
+        {
+          "action": "positionCursor",
+          "path": "modules_app/api/models/auth/authService.cfc",
+          "position": "184"
+        }
+      ]
+    },
+    {
+      "title": "RETURN TOKEN PAYLOAD",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/models/auth/authService.cfc",
+          "position": "204:223"
+        },
+        {
+          "action": "positionCursor",
+          "path": "modules_app/api/models/auth/authService.cfc",
+          "position": "204"
+        }
+      ]
+    },
+  ]
+}

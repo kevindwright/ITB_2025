@@ -1,0 +1,19 @@
+{
+	"cfml.mappings": [
+		{
+			"logicalPath": "/coldbox",
+			"directoryPath": "./coldbox",
+			"isPhysicalDirectoryPath" :false
+		},
+		{
+			"logicalPath": "/testbox",
+			"directoryPath": "./testbox",
+			"isPhysicalDirectoryPath" :false
+		}
+	],
+
+	"demoTime.highlightBorderColor": "transparent",
+	"demoTime.highlightBackground": "rgba(36, 114, 163, 0.2)",
+	"demoTime.highlightOpacity": 0.5,
+	"demoTime.highlightBlur": 2,
+}

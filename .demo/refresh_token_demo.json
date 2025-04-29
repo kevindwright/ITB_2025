@@ -1,0 +1,135 @@
+{
+  "$schema": "https://demotime.elio.dev/demo-time.schema.json",
+  "title": "REFRESH TOKEN CREATION",
+  "description": "",
+  "demos": [
+    {
+      "title": "LAYOUT REDIRECT",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "layouts/main.cfm",
+          "position": "146:172"
+        },
+        {
+          "action": "positionCursor",
+          "path": "layouts/main.cfm",
+          "position": "146"
+        }
+      ]
+    },    
+    {
+      "title": "DASHBOARD",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/main/index.cfm",
+          "position": "274:276"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/main/index.cfm",
+          "position": "275"
+        }
+      ]
+    },    
+    {
+      "title": "FETCH PROFILE",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/main/index.cfm",
+          "position": "157:167"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/main/index.cfm",
+          "position": "157"
+        }
+      ]
+    },
+    {
+      "title": "CALL AUTH USER",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/handlers/user/profile.cfc",
+          "position": "23:36"
+        },
+        {
+          "action": "positionCursor",
+          "path": "modules_app/api/handlers/user/profile.cfc",
+          "position": "23"
+        }
+      ]
+    },
+    {
+      "title": "AUTH USER TOKEN",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/models/auth/authService.cfc",
+          "position": "204:223"
+        },
+        {
+          "action": "positionCursor",
+          "path": "modules_app/api/models/auth/authService.cfc",
+          "position": "204"
+        }
+      ]
+    },
+    {
+      "title": "RECEIVE RESPONSE",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/main/index.cfm",
+          "position": "157:217"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/main/index.cfm",
+          "position": "157"
+        }
+      ]
+    },
+    {
+      "title": "REFRESH TOKEN",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/main/index.cfm",
+          "position": "219:249"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/main/index.cfm",
+          "position": "219"
+        }
+      ]
+    },
+    {
+      "title": "REFRESH TOKEN",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/main/index.cfm",
+          "position": "219:249"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/main/index.cfm",
+          "position": "219"
+        }
+      ]
+    }
+  ]
+}
