@@ -105,31 +105,95 @@
       "steps": [
         {
           "action": "highlight",
-          "path": "views/main/index.cfm",
-          "position": "219:249"
+          "path": "modules_app/api/handlers/auth/refreshToken.cfc",
+          "position": "25:138"
         },
         {
           "action": "positionCursor",
-          "path": "views/main/index.cfm",
-          "position": "219"
+          "path": "modules_app/api/handlers/auth/refreshToken.cfc",
+          "position": "25"
         }
       ]
     },
     {
-      "title": "REFRESH TOKEN",
+      "title": "RECEIVE RESPONSE",
       "description": "",
       "steps": [
         {
           "action": "highlight",
           "path": "views/main/index.cfm",
-          "position": "219:249"
+          "position": "157:217"
         },
         {
           "action": "positionCursor",
           "path": "views/main/index.cfm",
-          "position": "219"
+          "position": "157"
         }
       ]
-    }
+    },    
+    {
+      "title": "FETCH PROFILE",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/main/index.cfm",
+          "position": "157:167"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/main/index.cfm",
+          "position": "157"
+        }
+      ]
+    },
+    {
+      "title": "CALL AUTH USER",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/handlers/user/profile.cfc",
+          "position": "23:36"
+        },
+        {
+          "action": "positionCursor",
+          "path": "modules_app/api/handlers/user/profile.cfc",
+          "position": "23"
+        }
+      ]
+    },
+    {
+      "title": "AUTH USER TOKEN",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "modules_app/api/models/auth/authService.cfc",
+          "position": "204:223"
+        },
+        {
+          "action": "positionCursor",
+          "path": "modules_app/api/models/auth/authService.cfc",
+          "position": "204"
+        }
+      ]
+    },    
+    {
+      "title": "POPULATE PROFILE",
+      "description": "",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "views/main/index.cfm",
+          "position": "183:206"
+        },
+        {
+          "action": "positionCursor",
+          "path": "views/main/index.cfm",
+          "position": "183"
+        }
+      ]
+    },
   ]
 }

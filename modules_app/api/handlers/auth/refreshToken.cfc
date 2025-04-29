@@ -74,11 +74,13 @@ component extends="coldbox.system.EventHandler" {
 				"fingerprint" : local.fingerprint
 			};
 			structAppend( local.accessTokenClaims, local.user.getJWTCustomClaims() );
+
 			local.refreshTokenClaims = {
 				"token_type"  : "refresh_token",
 				"fingerprint" : local.fingerprint
 			}
 			structAppend( local.refreshTokenClaims, local.user.getJWTCustomClaims() );
+			
 			local.jwsToken = jwtAuth().fromUser(
 				local.user,
 				local.accessTokenClaims,
